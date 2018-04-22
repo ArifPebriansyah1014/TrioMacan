@@ -5,3 +5,8 @@
 #define bar 20
 
 usingnamespace std;
+int main(){
+
+
+return 0;
+}
