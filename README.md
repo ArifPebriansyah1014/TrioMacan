@@ -33,4 +33,31 @@ int main(){
 			cout<<kata[i][j]<<" ";
 		}
 		cout<<endl;
-	}		
+	}
+	cout<<endl;
+	cout<<"Berapa Kata yang Ingin dicari : "; cin>>n;
+	for (int i=0; i<3; i++){
+	}
+	for(int i=0;i<n;i++){
+		cout<<"Input Kata yang ingin dicari : ";cin>>word;
+	PanjangKata=strlen(word);
+}
+
+	for (int i=0;i<15;i++){
+		for (int j=0;j<15;j++){
+			if (word[0]==kata[i][j]){
+				for (int a=0;a<PanjangKata;a++){
+					if (word[a]==kata[i][j+a]){
+						test=a;
+					}
+					else{
+						break;
+					}
+				}
+				if (test==PanjangKata-1){
+					temu+=1;
+				}
+				else{
+					temu+=0;
+				}
+				test=0;
