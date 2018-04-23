@@ -175,4 +175,6 @@ int main(){
 	else {
 		cout<<i+1<<"kata "<<word<<" tidak ada di dalam tabel ";
 	}
+	}
+	}
 
