@@ -167,4 +167,12 @@ int main(){
 				}
 				test=0;	
 			}}	}
+				cout<<"================================== "<<endl;
+	for (int i=0; i<n; i++){
+	if(word[i]==1){
+		cout<<i+1<<"Kata "<<word<<" ada di dalam tabel ";
+	}
+	else {
+		cout<<i+1<<"kata "<<word<<" tidak ada di dalam tabel ";
+	}
 
