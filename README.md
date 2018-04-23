@@ -170,10 +170,10 @@ int main(){
 				cout<<"================================== "<<endl;
 	for (int i=0; i<n; i++){
 	if(word[i]==1){
-		cout<<i+1<<"Kata "<<word<<" ada di dalam tabel ";
+		cout<<i+1<<"Kata "<<word<<" Ada di dalam tabel ";
 	}
 	else {
-		cout<<i+1<<"kata "<<word<<" tidak ada di dalam tabel ";
+		cout<<i+1<<"kata "<<word<<" Tidak ada di dalam tabel ";
 	}
 	}
 	}
