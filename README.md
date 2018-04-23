@@ -61,3 +61,110 @@ int main(){
 					temu+=0;
 				}
 				test=0;
+				for (int k=0;k<PanjangKata;k++){
+					if (word[k]==kata[i][j-k]){
+						test=k;
+					}
+					else{
+						break;
+					}
+				}
+				if (test==PanjangKata-1){
+					temu+=1;
+				}
+				else{
+					temu+=0;
+				}
+				test=0;
+				for (int k=0;k<PanjangKata;k++){
+					if (word[k]==kata[i+k][j]){
+						test=k;
+					}
+					else{
+						break;
+					}
+				}
+				if (test==PanjangKata-1){
+					temu+=1;
+				}
+				else{
+					temu+=0;
+				}
+				test=0;
+				for (int k=0;k<PanjangKata;k++){
+					if (word[k]==kata[i-k][j]){
+						test=k;
+					}
+					else{
+						break;
+					}
+				}
+				if (test==PanjangKata-1){
+					temu+=1;
+				}
+				else{
+					temu+=0;
+				}
+				test=0;
+				for (int k=0;k<PanjangKata;k++){
+					if (word[k]==kata[i-k][j-k]){
+						test=k;
+					}
+					else{
+						break;
+					}
+				}
+				if (test==PanjangKata-1){
+					temu+=1;
+				}
+				else{
+					temu+=0;
+				}
+				test=0;
+				for (int k=0;k<PanjangKata;k++){
+					if (word[k]==kata[i-k][j+k]){
+						test=k;
+					}
+					else{
+						break;
+					}
+				}
+				if (test==PanjangKata-1){
+					temu+=1;
+				}
+				else{
+					temu+=0;
+				}
+				test=0;
+				for (int k=0;k<PanjangKata;k++){
+					if (word[k]==kata[i+k][j-k]){
+						test=k;
+					}
+					else{
+						break;
+					}
+				}
+				if (test==PanjangKata-1){
+					temu+=1;
+				}
+				else{
+					temu+=0;
+				}
+				test=0;
+				for (int k=0;k<PanjangKata;k++){
+					if (word[k]==kata[i+k][j+k]){
+						test=k;
+					}
+					else{
+						break;
+					}
+				}
+				if (test==PanjangKata-1){
+					temu+=1;
+				}
+				else{
+					temu+=0;
+				}
+				test=0;	
+			}}	}
+
